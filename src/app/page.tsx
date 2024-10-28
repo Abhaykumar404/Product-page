@@ -52,8 +52,8 @@ export default function Home() {
                   d='M37.0667 48.8598C37.0667 53.51 44.6113 57.284 53.915 57.284C63.2186 57.284 70.7633 53.51 70.7633 48.8598M10.1094 32.0115C10.1094 36.6617 17.654 40.4357 26.9577 40.4357C30.7519 40.4357 34.253 39.8089 37.0667 38.7509M10.1094 43.8053C10.1094 48.4555 17.654 52.2295 26.9577 52.2295C30.7519 52.2295 34.2496 51.6027 37.0667 50.5447M53.915 43.8053C44.6113 43.8053 37.0667 40.0313 37.0667 35.3812C37.0667 30.7311 44.6113 26.957 53.915 26.957C63.2186 26.957 70.7633 30.7311 70.7633 35.3812C70.7633 40.0313 63.2186 43.8053 53.915 43.8053Z'
                   stroke='#38B557'
                   strokeWidth='2.5'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                 />
                 <path
                   d='M10.1094 18.5312V55.5975C10.1094 60.2477 17.654 64.0217 26.9577 64.0217C30.7519 64.0217 34.2496 63.3949 37.0667 62.3369M37.0667 62.3369V35.3796M37.0667 62.3369C37.0667 66.987 44.6113 70.761 53.915 70.761C63.2186 70.761 70.7633 66.987 70.7633 62.3369V35.3796M43.806 28.6402V18.5312'
@@ -138,7 +138,7 @@ export default function Home() {
             <div className='product-name text-2xl font-bold text-[#033E4D]'>
               3 kW on-grid solar power plant | Monoperc bifacial panels
             </div>
-            <div className='solar-name text-xl font-bold text-[#033E4D]'>
+            <div className='solar-name text-3xl font-bold text-[#033E4D]'>
               TCM Solar
               <div className='flex gap-2'>
                 <svg
@@ -234,7 +234,7 @@ export default function Home() {
                   </svg>
                 </div>
               </div>
-              <div className='text-lg w-1/2 flex flex-col justify-end items-end font-medium text-[#033E4D]'>
+              <div className='text-base w-1/2 flex flex-col justify-end items-end font-normal text-[#033E4D]'>
                 Available Subsidy
                 <div className='text-xl font-bold text-[#38B557]'>₹ 78,000</div>
               </div>
@@ -278,7 +278,7 @@ export default function Home() {
             </div>
 
             <div className='flex gap-2'>
-              <div className='w-2/4 border border-[#033E4D] text-[#033E4D] font-medium flex gap-2 rounded-lg p-2'>
+              <div className='w-2/4 border border-[#033E4D] text-[#033E4D] text-sm font-medium flex gap-2 rounded-lg p-2'>
                 <svg
                   width='25'
                   height='25'
@@ -304,7 +304,7 @@ export default function Home() {
                   <a className='underline text-[#38B557]'>Check eligibility</a>
                 </div>
               </div>
-              <div className='w-2/4 border border-[#033E4D] text-[#033E4D] font-medium flex gap-2 rounded-lg p-2'>
+              <div className='w-2/4 border text-sm border-[#033E4D] text-[#033E4D] font-medium flex gap-2 rounded-lg p-2'>
                 <svg
                   width='25'
                   height='25'
@@ -389,11 +389,11 @@ export default function Home() {
                   strokeLinecap='round'
                 />
               </svg>
-              <div className='text-xl font-bold text-[#033E4D]'>
+              <div className='text-lg font-bold text-[#033E4D]'>
                 <span className='text-[#38B557]'>Fast Delivery</span> Delivery
                 in 2 weeks
-                <div className='text-lg'>Project completion in 4-6 weeks</div>
-                <a className='text-base font-semibold underline text-[#38B557]'>
+                <div className='text-base'>Project completion in 4-6 weeks</div>
+                <a className='text-sm font-semibold underline text-[#38B557]'>
                   See complete installation process and timelines
                 </a>
               </div>
