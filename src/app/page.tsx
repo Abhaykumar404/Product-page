@@ -7,7 +7,7 @@ export default function Home() {
         <img src='/solar.webp' alt='solar' />
         <div className="flex flex-col gap-4">
           <div className='h-[2px] bg-[#033E4D]'></div>
-          <div className='text-3xl font-bold text-[#033E4D]'>
+          <div className='text-xl font-bold text-[#033E4D]'>
             Who should buy this?
           </div>
           <div className='text-lg font-medium text-[#033E4D]'>
@@ -51,23 +51,23 @@ export default function Home() {
                 <path
                   d='M37.0667 48.8598C37.0667 53.51 44.6113 57.284 53.915 57.284C63.2186 57.284 70.7633 53.51 70.7633 48.8598M10.1094 32.0115C10.1094 36.6617 17.654 40.4357 26.9577 40.4357C30.7519 40.4357 34.253 39.8089 37.0667 38.7509M10.1094 43.8053C10.1094 48.4555 17.654 52.2295 26.9577 52.2295C30.7519 52.2295 34.2496 51.6027 37.0667 50.5447M53.915 43.8053C44.6113 43.8053 37.0667 40.0313 37.0667 35.3812C37.0667 30.7311 44.6113 26.957 53.915 26.957C63.2186 26.957 70.7633 30.7311 70.7633 35.3812C70.7633 40.0313 63.2186 43.8053 53.915 43.8053Z'
                   stroke='#38B557'
-                  stroke-width='2.5'
+                  strokeWidth='2.5'
                   stroke-linecap='round'
                   stroke-linejoin='round'
                 />
                 <path
                   d='M10.1094 18.5312V55.5975C10.1094 60.2477 17.654 64.0217 26.9577 64.0217C30.7519 64.0217 34.2496 63.3949 37.0667 62.3369M37.0667 62.3369V35.3796M37.0667 62.3369C37.0667 66.987 44.6113 70.761 53.915 70.761C63.2186 70.761 70.7633 66.987 70.7633 62.3369V35.3796M43.806 28.6402V18.5312'
                   stroke='#38B557'
-                  stroke-width='2.5'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2.5'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                 />
                 <path
                   d='M26.9577 26.9577C17.654 26.9577 10.1094 23.1837 10.1094 18.5335C10.1094 13.8834 17.654 10.1094 26.9577 10.1094C36.2613 10.1094 43.806 13.8834 43.806 18.5335C43.806 23.1837 36.2613 26.9577 26.9577 26.9577Z'
                   stroke='#38B557'
-                  stroke-width='2.5'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2.5'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                 />
               </svg>
               <div className='text-2xl font-bold text-[#033E4D]'>
@@ -91,8 +91,8 @@ export default function Home() {
                 <path
                   d='M34.5563 44.3249V70.7633M45.7874 21.5157V10.1094M23.3252 21.5157V10.1094M51.4046 28.255V37.5856C51.4046 39.373 50.6946 41.0872 49.4307 42.351C48.1669 43.6149 46.4527 44.3249 44.6653 44.3249H24.4473C22.66 44.3249 20.9458 43.6149 19.6819 42.351C18.418 41.0872 17.708 39.373 17.708 37.5856V28.2516C17.708 26.4643 18.418 24.7501 19.6819 23.4862C20.9458 22.2223 22.66 21.5123 24.4473 21.5123H44.6653C46.4527 21.5123 48.1669 22.2223 49.4307 23.4862C50.6946 24.7501 51.4046 26.4643 51.4046 28.2516V28.255Z'
                   stroke='#38B557'
-                  stroke-width='2.5'
-                  stroke-linecap='round'
+                  strokeWidth='2.5'
+                  strokeLinecap='round'
                 />
                 <path
                   d='M57.0215 53.9141L51.4043 64.0231H64.8829L59.2657 74.132'
@@ -138,7 +138,7 @@ export default function Home() {
             <div className='product-name text-2xl font-bold text-[#033E4D]'>
               3 kW on-grid solar power plant | Monoperc bifacial panels
             </div>
-            <div className='solar-name text-3xl font-bold text-[#033E4D]'>
+            <div className='solar-name text-xl font-bold text-[#033E4D]'>
               TCM Solar
               <div className='flex gap-2'>
                 <svg
@@ -204,7 +204,7 @@ export default function Home() {
               </div>
             </div>
             <div className='flex shadow-lg bg-[#38B55733] w-4/5 py-2 px-4 justify-between rounded-md'>
-              <div className='solar-name w-1/2 text-3xl font-bold text-[#033E4D]'>
+              <div className='solar-name w-1/2 text-xl font-bold text-[#033E4D]'>
                 ₹ 3,20,000
                 <div className='flex justify-start items-center gap-2'>
                   <span className='text-base font-normal underline'>
