@@ -2,11 +2,11 @@
 
 export default function Home() {
   return (
-    <div className='w-full flex justify-center items-start pt-10'>
+    <div className='flex justify-center items-start xl:max-w-[1350px] 2xl:max-w-[1470px] mx-auto border border-red-500'>
       <div className='w-1/2 flex flex-col gap-8'>
         <img src='/solar.webp' alt='solar' />
         <div className="flex flex-col gap-4">
-          <div className='h-[2px] bg-[#033E4D]'></div>
+          <div className='h-[1px] bg-[#033E4D]'></div>
           <div className='text-3xl font-bold text-[#033E4D]'>
             Who should buy this?
           </div>
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='h-[2px] bg-[#033E4D]'></div>
+          <div className='h-[1px] bg-[#033E4D]'></div>
         </div>
       </div>
       <div className='w-2/5 flex justify-center items-center'>
