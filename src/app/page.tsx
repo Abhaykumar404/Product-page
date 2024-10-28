@@ -7,7 +7,7 @@ export default function Home() {
         <img src='/solar.webp' alt='solar' />
         <div className="flex flex-col gap-4">
           <div className='h-[2px] bg-[#033E4D]'></div>
-          <div className='text-xl font-bold text-[#033E4D]'>
+          <div className='text-3xl font-bold text-[#033E4D]'>
             Who should buy this?
           </div>
           <div className='text-lg font-medium text-[#033E4D]'>
@@ -135,7 +135,7 @@ export default function Home() {
             </svg>
           </div>
           <div className='flex flex-col gap-4'>
-            <div className='product-name text-2xl font-bold text-[#033E4D]'>
+            <div className='product-name text-2xl mt-4 font-bold text-[#033E4D]'>
               3 kW on-grid solar power plant | Monoperc bifacial panels
             </div>
             <div className='solar-name text-3xl font-bold text-[#033E4D]'>
