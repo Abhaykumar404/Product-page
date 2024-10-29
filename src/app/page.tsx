@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div>
-      <div className='xl:max-w-[1600px] 2xl:max-w-[1650px] mx-auto'>
+      <div className='xl:max-w-[1340px] 2xl:max-w-[1470px] mx-auto'>
         <div className='flex justify-center items-start bg-[#fafbf]  '>
           <div className='w-1/2 flex flex-col gap-8'>
             <img src='/solar.webp' alt='solar' />
@@ -611,8 +611,8 @@ export default function Home() {
       {/* Journey of buying from Zircle */}
       <div className='h-[1px] bg-[#396571] mt-10'></div>
         <div className="mt-10 flex flex-col justify-center items-center">
-          <div className="text-4xl font-bold text-[#033E4D] w-full xl:max-w-[1600px] mt-10 mb-10 2xl:max-w-[1650px] mx-auto">Installation process</div>
-        <div className='grid grid-cols-5 xl:max-w-[1600px] text-[#033E4D] 2xl:max-w-[1650px] mx-auto'>
+          <div className="text-4xl font-bold text-[#033E4D] w-full xl:max-w-[1340px] mt-10 mb-10 2xl:max-w-[1470px] mx-auto">Installation process</div>
+        <div className='grid grid-cols-5 xl:max-w-[1340px] text-[#033E4D] 2xl:max-w-[14700px] mx-auto'>
           <div className='text-2xl font-bold'>
             <div className='flex justify-start items-center'>
               <svg
@@ -653,7 +653,7 @@ export default function Home() {
             </div>
             <div className="px-4 flex flex-col mt-4 gap-2">
             Site Visit
-            <p className='text-base font-normal'>
+            <p className='text-sm font-normal'>
               As soon as you book an order with us, our team will reach out to
               you within 24 hours to schedule a detailed site assessment for
               your building.
@@ -708,7 +708,7 @@ export default function Home() {
             </div>
             <div className="px-4 flex flex-col mt-4 gap-2">
             Final Design of System
-            <p className='text-base font-normal'>
+            <p className='text-sm font-normal'>
               Based on the detailed site assessment, we will share the final
               design of the system with you. There is a chance that the final
               capacity of system possible on your building might be slightly
@@ -766,7 +766,7 @@ export default function Home() {
             </div>
             <div className="px-4 flex flex-col mt-4 gap-2">
             Permit and Applications
-            <p className='text-base font-normal'>
+            <p className='text-sm font-normal'>
               As soon as you book the order with us, we also initiate the
               necessary applications for prefeasibility approvals from your
               electric utility as well as in the national rooftop solar portal
@@ -848,7 +848,7 @@ export default function Home() {
             </div>
             <div className="px-4 flex flex-col mt-4 gap-2">
             Delivery and Installation
-            <p className='text-base font-normal'>
+            <p className='text-sm font-normal'>
               Once the prefeasibility approval is received from the electric
               utility, we can proceed with the installation of the system. We
               then ask you to make the next milestone payments to proceed with
@@ -896,7 +896,7 @@ export default function Home() {
             </div>
             <div className="px-4 flex flex-col mt-4 gap-2">
             Lifetime Support
-            <p className='text-base font-normal'>
+            <p className='text-sm font-normal'>
               Now the plant is live and generating power. But we wont disappear
               after this. You can reach our helpline for any troubleshooting or
               issues. You can also opt in for our monthly plant performance
