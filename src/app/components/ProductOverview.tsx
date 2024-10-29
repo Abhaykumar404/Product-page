@@ -10,7 +10,7 @@ function ProductOverview() {
               Premium
             </div>
           </div>
-          <div className='grid lg:grid-cols-3 mt-8'>
+          <div className='grid lg:grid-cols-3 lg:gap-0 gap-4 mt-8'>
             <div className='flex lg:justify-center justify-start items-center gap-2 lg:gap-4'>
               <svg
                 className='lg:h-[56px] lg:w-[56px] w-[30px] h-[30px]'

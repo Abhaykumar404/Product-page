@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+import AddsOn from './components/AddsOn';
 import JourneyToBuy from './components/JourneyToBuy';
 import ProductDetailsCard from './components/ProductDetailsCard';
 import ProductOverview from './components/ProductOverview';
@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <div className='flex flex-col justify-center items-center'>
       <div className='xl:max-w-[1340px] 2xl:max-w-[1470px] xl-mx-auto mx-2'>
-        <div className='flex justify-center xl:gap-0 gap-4 items-start bg-[#fafbf]'>
-          <div className='w-1/2 flex flex-col gap-8'>
+        <div className='flex lg:flex-row flex-col justify-center xl:gap-0 gap-4 items-start bg-[#fafbf]'>
+          <div className='lg:w-1/2 w-full flex flex-col gap-8'>
             <img src='/solar.webp' alt='solar' />
             <Whybuy />
           </div>
 
-          <div className='w-1/2 flex justify-center items-center'>
+          <div className='lg:w-1/2 w-full lg:flex hidden justify-center items-center'>
             <ProductDetailsCard />
           </div>
         </div>
@@ -25,12 +25,12 @@ export default function Home() {
       {/* Journey of buying from Zircle */}
       <div className='w-full'>
         <div className='h-[1px] bg-[#396571] mt-10'></div>
-        <div className='flex justify-center items-center'>
+        <div className='flex lg:justify-center justify-start items-center'>
           <ProductOverview />
         </div>
         <div className='h-[1px] bg-[#D9D9D9] mt-10'></div>
         <div className='flex justify-center items-center'>
-          <div className='text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl-mx-auto mx-2 lg:text-2xl mt-10 text-lg font-bold items-center justify-start flex gap-4'>
+          <div className='text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl:mx-auto mx-2 lg:text-2xl mt-10 text-lg font-bold items-center justify-start flex gap-4'>
             What’s included? See all product details
             <svg
               className='lg:w-[46px] lg:h-[46px] w-5 h-5 cursor-pointer'
@@ -57,14 +57,14 @@ export default function Home() {
         </div>
         <div className='h-[4px] bg-[#D9D9D9] mb-10  mt-10'></div>
 
-        <div className='flex flex-col justify-center items-center'>
-         <Warranty />
+        <div className='flex flex-col justify-center items-center lg:mx-auto mx-2'>
+          <Warranty />
         </div>
 
         <div className='h-[1px] bg-[#D9D9D9] mt-10'></div>
         <div className='flex justify-center items-center'>
           <div className='text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl-mx-auto mx-2 lg:text-2xl mt-10 text-lg font-bold items-center justify-start flex gap-4'>
-          See warranty and service details
+            See warranty and service details
             <svg
               className='lg:w-[46px] lg:h-[46px] w-5 h-5 cursor-pointer'
               viewBox='0 0 20 20'
@@ -88,6 +88,11 @@ export default function Home() {
             </svg>
           </div>
         </div>
+        <div className='h-[4px] bg-[#D9D9D9] mb-10  mt-10'></div>
+        <div className='flex justify-center items-center'>
+          <AddsOn />
+        </div>
+
         <div className='h-[4px] bg-[#D9D9D9] mb-10  mt-10'></div>
 
         <JourneyToBuy />

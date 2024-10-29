@@ -3,14 +3,14 @@ import React from 'react';
 function JourneyToBuy() {
   return (
     <div className='mt-10 flex flex-col justify-center items-center xl-mx-auto mx-2'>
-      <div className='text-4xl font-bold text-[#033E4D] w-full xl:max-w-[1340px] mt-10 mb-10 2xl:max-w-[1470px] mx-auto'>
+      <div className='text-3xl font-bold text-[#033E4D] w-full xl:max-w-[1340px] lg:mt-10 mt-4 mb-10 2xl:max-w-[1470px] mx-auto'>
         Installation process
       </div>
-      <div className='grid grid-cols-5 w-full xl:max-w-[1340px] text-[#033E4D] 2xl:max-w-[14700px]'>
-        <div className='text-2xl font-bold'>
+      <div className='grid md:grid-cols-3 grid-cols-2 lg:grid-cols-5 lg:gap-0 gap-4 w-full xl:max-w-[1340px] text-[#033E4D] 2xl:max-w-[14700px]'>
+        <div className='lg:text-2xl text-lg font-bold'>
           <div className='flex justify-start items-center'>
             <svg
-              className='lg:h-[83px] lg:w-[83px]'
+              className='lg:h-[83px] lg:w-[83px w-[60px] h-[60px]'
               viewBox='0 0 83 83'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -31,6 +31,7 @@ function JourneyToBuy() {
             <svg
               width='211'
               height='2'
+              className='lg:block hidden'
               viewBox='0 0 211 2'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -44,17 +45,17 @@ function JourneyToBuy() {
               />
             </svg>
           </div>
-          <div className='px-4 flex flex-col mt-4 gap-2'>
+          <div className='lg:px-4 flex flex-col mt-4 gap-2'>
             Site Visit
-            <p className='text-sm font-normal'>
+            <p className='md:text-sm text-xs font-normal'>
             Once you book an order, our team will reach out to you within 24 hours to schedule a detailed site assessment.
             </p>
           </div>
         </div>
-        <div className='text-2xl font-bold'>
+        <div className='lg:text-2xl text-lg font-bold'>
           <div className='flex justify-start items-center'>
             <svg
-              className='lg:h-[83px] lg:w-[83px]'
+              className='lg:h-[83px] lg:w-[83px] w-[60px] h-[60px]'
               viewBox='0 0 83 83'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -83,6 +84,7 @@ function JourneyToBuy() {
             <svg
               width='211'
               height='2'
+              className='lg:block hidden'
               viewBox='0 0 211 2'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -96,17 +98,17 @@ function JourneyToBuy() {
               />
             </svg>
           </div>
-          <div className='px-4 flex flex-col mt-4 gap-2'>
+          <div className='lg:px-4 flex flex-col mt-4 gap-2'>
             Final Design of System
-            <p className='text-sm font-normal'>
+            <p className='md:text-sm text-xs font-normal'>
             Based on the detailed site assessment, we will share the final design of the system with you. 
             </p>
           </div>
         </div>
-        <div className='text-2xl font-bold'>
+        <div className='lg:text-2xl text-lg font-bold'>
           <div className='flex justify-start items-center'>
             <svg
-              className='lg:h-[83px] lg:w-[83px]'
+              className='lg:h-[83px] lg:w-[83px] w-[60px] h-[60px]'
               viewBox='0 0 83 83'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -135,6 +137,7 @@ function JourneyToBuy() {
             <svg
               width='211'
               height='2'
+              className='lg:block hidden'
               viewBox='0 0 211 2'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -148,19 +151,19 @@ function JourneyToBuy() {
               />
             </svg>
           </div>
-          <div className='px-4 flex flex-col mt-4 gap-2'>
+          <div className='lg:px-4 flex flex-col mt-4 gap-2'>
             Permit and Applications
-            <p className='text-sm font-normal'>
+            <p className='md:text-sm text-xs font-normal'>
               We also initiate the necessary applications for prefeasibility
               approvals from your electric utility as well as in the national
               rooftop solar portal for subsidy application.
             </p>
           </div>
         </div>
-        <div className='text-2xl font-bold'>
+        <div className='lg:text-2xl text-lg font-bold'>
           <div className='flex justify-start items-center'>
             <svg
-              className='lg:h-[83px] lg:w-[83px]'
+              className='lg:h-[83px] lg:w-[83px] w-[60px] h-[60px]'
               viewBox='0 0 83 83'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -214,6 +217,7 @@ function JourneyToBuy() {
             <svg
               width='211'
               height='2'
+              className='lg:block hidden'
               viewBox='0 0 211 2'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -227,9 +231,9 @@ function JourneyToBuy() {
               />
             </svg>
           </div>
-          <div className='px-4 flex flex-col mt-4 gap-2'>
+          <div className='lg:px-4 flex flex-col mt-4 gap-2'>
             Delivery and Installation
-            <p className='text-sm font-normal'>
+            <p className='md:text-sm text-xs font-normal'>
               Once the prefeasibility approval is received from the electric
               utility, we can proceed with the installation of the system. We
               then ask you to make the next milestone payments to proceed with
@@ -238,10 +242,10 @@ function JourneyToBuy() {
             </p>
           </div>
         </div>
-        <div className='text-2xl font-bold'>
+        <div className='lg:text-2xl text-lg font-bold'>
           <div className='flex justify-start items-center'>
             <svg
-              className='lg:h-[73px] lg:w-[73px]'
+              className='lg:h-[73px] lg:w-[73px] w-[60px] h-[60px]'
               viewBox='0 0 83 83'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -274,9 +278,9 @@ function JourneyToBuy() {
               />
             </svg>
           </div>
-          <div className='px-4 flex flex-col mt-4 gap-2'>
+          <div className='lg:px-4 flex flex-col mt-4 gap-2'>
             Lifetime Support
-            <p className='text-sm font-normal'>
+            <p className='md:text-sm text-xs font-normal'>
               Now the plant is live and generating power. But we wont disappear
               after this. You can reach our helpline for any troubleshooting or
               issues. You can also opt in for our monthly plant performance

@@ -259,7 +259,7 @@ function Whybuy() {
         </div>
       </div>
 
-      <div className='h-[1px] bg-[#033E4D]'></div>
+      <div className='h-[1px] bg-[#033E4D] lg:block hidden'></div>
     </div>
   );
 }
