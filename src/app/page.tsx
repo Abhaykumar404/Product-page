@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className='flex justify-center items-start xl:max-w-[1350px] 2xl:max-w-[1470px] mx-auto border border-red-500'>
+    <div className='flex justify-center items-start'>
       <div className='w-1/2 flex flex-col gap-8'>
         <img src='/solar.webp' alt='solar' />
         <div className="flex flex-col gap-4">
