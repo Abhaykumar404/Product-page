@@ -6,12 +6,12 @@ function AddsOn() {
             Benefits and add-ons
             <div className='lg:w-3/4 w-full flex gap-4'>
               <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
+                <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-16 h-16 absolute'
+                    className='lg:w-24 lg:h-24 w-14 h-14 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -23,7 +23,7 @@ function AddsOn() {
                   </svg>
                   <svg
                     viewBox='0 0 33 32'
-                    className='lg:w-16 lg:h-16 w-12 h-12 absolute'
+                    className='lg:w-16 lg:h-16 w-10 h-10 absolute'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
                   >
@@ -49,12 +49,12 @@ function AddsOn() {
                 80-point check quality inspection
               </div>
               <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
+                <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-16 h-16 absolute'
+                    className='lg:w-24 lg:h-24 w-14 h-14 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -65,7 +65,7 @@ function AddsOn() {
                     />
                   </svg>
                   <svg
-                    className='lg:w-16 lg:h-16 w-12 h-12 absolute'
+                    className='lg:w-16 lg:h-16 w-10 h-10 absolute'
                     viewBox='0 0 33 32'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
@@ -94,12 +94,12 @@ function AddsOn() {
                 Up to 5 years of Zircle maintenance
               </div>
               <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
+                <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-16 h-16 absolute'
+                    className='lg:w-24 lg:h-24 w-14 h-14 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -110,7 +110,7 @@ function AddsOn() {
                     />
                   </svg>
                   <svg
-                    className='lg:w-16 lg:h-16 w-12 h-12 absolute'
+                    className='lg:w-16 lg:h-16 w-10 h-10 absolute'
                     viewBox='0 0 33 32'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
@@ -143,12 +143,12 @@ function AddsOn() {
                 Life long service support
               </div>
               <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
+                <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-16 h-16 absolute'
+                    className='lg:w-24 lg:h-24 w-14 h-14 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -159,7 +159,7 @@ function AddsOn() {
                     />
                   </svg>
                   <svg
-                    className='lg:w-16 lg:h-16 w-12 h-12 absolute'
+                    className='lg:w-16 lg:h-16 w-10 h-10 absolute'
                     viewBox='0 0 45 45'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
