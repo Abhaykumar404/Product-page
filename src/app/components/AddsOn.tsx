@@ -198,7 +198,7 @@ function AddsOn() {
             </div>
             <div className='flex lg:flex-row flex-col gap-4 mt-8'>
               <div className='border border-[#033E4D] p-4 flex items-center lg:w-1/2 rounded-md justify-between w-full'>
-                <div className='w-3/5 lg:text-2xl text-xl'>
+                <div className='w-3/5 lg:text-2xl text-lg'>
                   Zircle Quality Assurance
                   <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-sm'>
                     Our promise on quality
@@ -262,7 +262,7 @@ function AddsOn() {
                 </div>
               </div>
               <div className='border border-[#033E4D] p-4 flex items-center lg:w-1/2 rounded-md justify-between w-full'>
-                <div className='w-3/5 lg:text-2xl text-xl'>
+                <div className='w-3/5 lg:text-2xl text-lg'>
                 Zircle Service Assurance
                   <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-sm'>
                   <p className='lg:w-3/4'>How can you ensure long-term service with Zircle?</p>

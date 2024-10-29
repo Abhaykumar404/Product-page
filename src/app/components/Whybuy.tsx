@@ -2,24 +2,22 @@ import React from 'react';
 
 function Whybuy() {
   return (
-    <div className='flex flex-col gap-4'>
-      <div className='h-[1px] bg-[#033E4D]'></div>
-      <div className='text-3xl font-bold text-[#033E4D]'>
+    <div className='flex flex-col lg:gap-4 gap-2'>
+      <div className='h-[1px] bg-[#033E4D] lg:block hidden'></div>
+      <div className='lg:text-3xl lg:mx-auto w-full mx-2 text-2xl font-bold text-[#033E4D]'>
         Who should buy this?
       </div>
-      <div className='text-lg fontMedium text-[#033E4D]'>
+      <div className='md:text-lg lg:mx-auto mx-2 w-full text-base font-Medium text-[#033E4D]'>
         Check if this solution meets your need
       </div>
-      <div className='flex gap-4 justify-start items-center'>
+      <div className='flex gap-4 lg:mx-auto mx-2 justify-start items-center w-full'>
         <input
           placeholder='Enter monthly electricity bill amount'
-          className='border outline-none px-4 placeholder-[#396571] border-[#033E4D] h-16 flex justify-center items-center text-lg w-3/5 rounded-lg bg-[#38B55733] font-normal text-[#033E4D]'
+          className='border outline-none px-4 placeholder-[#396571] border-[#033E4D] lg:h-16 h-10 flex justify-center items-center lg:text-lg md:text-base text-sm lg:w-3/5 w-4/5 lg:rounded-lg rounded-full bg-[#38B55733] font-normal text-[#033E4D]'
         />
 
         <svg
-          className=' cursor-pointer'
-          width='87'
-          height='90'
+          className='lg:h-[90px] lg:w-[87px] w-10 h-10 cursor-pointer'
           viewBox='0 0 87 90'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -39,7 +37,7 @@ function Whybuy() {
       </div>
 
       {/* show this on Check if the electricity bill is suitable*/}
-      <div className='flex mb-8 justify-start items-center gap-4'>
+      <div className='lg:flex hidden mb-8 justify-start items-center gap-4'>
         <svg
           width='52'
           height='52'
@@ -187,12 +185,11 @@ function Whybuy() {
           </div>
         </div>
       </div>
-
-      <div className='flex'>
+      <div className='h-[1px] bg-[#D9D9D9] mt-8 mb-4 lg:hidden'></div>
+      <div className='flex lg:mx-auto mx-2 w-full'>
         <div className='flex w-1/2 justify-start items-center gap-4'>
           <svg
-            width='81'
-            height='81'
+            className='lg:w-[81px] lg:h-[81px] w-12 h-12'
             viewBox='0 0 81 81'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
@@ -219,16 +216,15 @@ function Whybuy() {
               strokeLinejoin='round'
             />
           </svg>
-          <div className='text-2xl font-bold text-[#033E4D]'>
+          <div className='lg:text-2xl text-base font-bold text-[#033E4D]'>
             ₹ 30,500
-            <div className='text-base font-normal'>ANNUAL SAVINGS</div>
+            <div className='lg:text-base text-xs font-normal'>ANNUAL SAVINGS</div>
           </div>
         </div>
 
         <div className='flex w-1/2 justify-start items-center gap-4'>
           <svg
-            width='82'
-            height='81'
+            className='lg:w-[81px] lg:h-[81px] w-12 h-12'
             viewBox='0 0 82 81'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
@@ -252,12 +248,13 @@ function Whybuy() {
             />
           </svg>
 
-          <div className='text-2xl font-bold text-[#033E4D]'>
+          <div className='lg:text-2xl text-base font-bold text-[#033E4D]'>
             4,380 kWh
-            <div className='text-base font-normal'>ANNUAL GENERATION</div>
+            <div className='lg:text-base text-xs font-normal'>ANNUAL GENERATION</div>
           </div>
         </div>
       </div>
+      <div className='h-[6px] bg-[#D9D9D9] mt-4 mb-4 lg:hidden'></div>
 
       <div className='h-[1px] bg-[#033E4D] lg:block hidden'></div>
     </div>

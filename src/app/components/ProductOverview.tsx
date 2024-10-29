@@ -2,16 +2,16 @@ import React from 'react'
 
 function ProductOverview() {
   return (
-    <div className='flex flex-col gap-4 xl:max-w-[1340px] mt-10 2xl:max-w-[1470px] lg:text-3xl text-xl text-[#033E4D] font-bold xl-mx-auto mx-2'>
+    <div className='flex flex-col gap-4 xl:max-w-[1340px] lg:mt-10 mt-6 2xl:max-w-[1470px] lg:text-3xl text-xl text-[#033E4D] font-bold xl-mx-auto mx-2'>
           Product Overview
-          <div className='text-xl font-bold text-[#033E4D] flex gap-4'>
-            Zircle Score: <span className='text-[#38B557]'>9.4/10</span>
-            <div className='w-[154px] h-9 rounded-md bg-[#033E4D] text-white lg:text-base flex justify-center items-center text-sm font-bold'>
+          <div className='lg:text-xl text-lg font-bold text-[#033E4D] flex justify-between lg:justify-start gap-4'>
+            <div>Zircle Score: <span className='text-[#38B557]'>9.4/10</span></div>
+            <div className='w-[154px] lg:h-9 h-8 rounded-md bg-[#033E4D] text-white lg:text-base flex justify-center items-center text-xs font-bold'>
               Premium
             </div>
           </div>
           <div className='grid lg:grid-cols-3 lg:gap-0 gap-4 mt-8'>
-            <div className='flex lg:justify-center justify-start items-center gap-2 lg:gap-4'>
+            <div className='flex lg:justify-center justify-start items-center gap-4'>
               <svg
                 className='lg:h-[56px] lg:w-[56px] w-[30px] h-[30px]'
                 viewBox='0 0 30 30'
@@ -26,17 +26,17 @@ function ProductOverview() {
                   strokeLinejoin='round'
                 />
               </svg>
-              <div className='lg:text-xl font-bold text-lg text-[#033E4D]'>
+              <div className='lg:text-xl font-bold text-sm text-[#033E4D]'>
                 <span className='text-[#6A8B94]'>PANEL </span>
                 <div className='text-lg font-normal'>
                   Monoperc Bifacial 545-565 Wp panels - 9 nos
                 </div>
-                <div className='lg:text-xl font-bold'>
+                <div className='lg:text-xl text-sm font-bold'>
                   Adani/ Waree/ Renewsys
                 </div>
               </div>
             </div>
-            <div className='flex lg:justify-center justify-start items-center gap-2 lg:gap-4'>
+            <div className='flex lg:justify-center justify-start items-center gap-4'>
               <svg
                 className='lg:h-[56px] lg:w-[56px] w-[30px] h-[30px]'
                 viewBox='0 0 30 30'
@@ -52,17 +52,17 @@ function ProductOverview() {
                 />
               </svg>
 
-              <div className='lg:text-xl font-bold text-lg text-[#033E4D]'>
+              <div className='lg:text-xl font-bold text-sm text-[#033E4D]'>
                 <span className='text-[#6A8B94]'>Growwatt </span>
                 <div className='text-lg font-normal'>
                 On-grid string inverter 5 kW 3-phase
                 </div>
-                <div className='lg:text-xl font-bold'>
+                <div className='lg:text-xl text-sm font-bold'>
                 INVERTER
                 </div>
               </div>
             </div>
-            <div className='flex lg:justify-center justify-start items-center gap-2 lg:gap-4'>
+            <div className='flex lg:justify-center justify-start items-center gap-4'>
               <svg
                 className='lg:h-[56px] lg:w-[56px] w-[30px] h-[30px]'
                 viewBox='0 0 30 30'
@@ -93,12 +93,12 @@ function ProductOverview() {
                 />
               </svg>
 
-              <div className='lg:text-xl font-bold text-lg text-[#033E4D]'>
+              <div className='lg:text-xl font-bold text-sm text-[#033E4D]'>
                 <span className='text-[#6A8B94]'>PANEL MOUNTING STRUCTURE </span>
                 <div className='text-lg font-normal'>
                 Elevated 6ft-8ft structure 
                 </div>
-                <div className='lg:text-xl font-bold'>
+                <div className='lg:text-xl text-sm font-bold'>
                 GI tubes
                 </div>
               </div>
