@@ -5,7 +5,7 @@ function AddsOn() {
     <div className='lg:text-3xl text-xl flex flex-col gap-8 font-bold text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl:mx-auto mx-2 '>
             Benefits and add-ons
             <div className='lg:w-3/4 w-full flex gap-4'>
-              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-normal'>
+              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
                 <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
@@ -48,7 +48,7 @@ function AddsOn() {
                 </div>
                 80-point check quality inspection
               </div>
-              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-normal'>
+              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
                 <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
@@ -93,7 +93,7 @@ function AddsOn() {
                 </div>
                 Up to 5 years of Zircle maintenance
               </div>
-              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-normal'>
+              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
                 <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
@@ -142,7 +142,7 @@ function AddsOn() {
                 </div>
                 Life long service support
               </div>
-              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-normal'>
+              <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
                 <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
@@ -201,7 +201,7 @@ function AddsOn() {
                 <div className='w-3/5 lg:text-2xl text-lg'>
                   Zircle Quality Assurance
                   <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-sm'>
-                    Our promise on quality
+                    <p className='w-3/4 '>Our promise on quality</p>
                     <svg
                       className='lg:w-14 lg:h-14 h-6 w-6 cursor-pointer'
                       viewBox='0 0 20 20'
@@ -225,12 +225,12 @@ function AddsOn() {
                     </svg>
                   </div>
                 </div>
-                <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
+                <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-16 h-16 absolute'
+                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -241,7 +241,7 @@ function AddsOn() {
                     />
                   </svg>
                   <svg
-                    className='lg:w-16 lg:h-16 w-12 h-12 absolute'
+                    className='lg:w-16 lg:h-16 w-8 h-8 absolute'
                     viewBox='0 0 34 34'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
@@ -265,7 +265,7 @@ function AddsOn() {
                 <div className='w-3/5 lg:text-2xl text-lg'>
                 Zircle Service Assurance
                   <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-sm'>
-                  <p className='lg:w-3/4'>How can you ensure long-term service with Zircle?</p>
+                  <p className='w-3/4'>How can you ensure long-term service with Zircle?</p>
                     <svg
                       className='lg:w-14 lg:h-14 h-6 w-6 cursor-pointer'
                       viewBox='0 0 20 20'
@@ -289,12 +289,12 @@ function AddsOn() {
                     </svg>
                   </div>
                 </div>
-                <div className='relative lg:w-28 lg:h-28 w-20 h-20 flex justify-center items-center'>
+                <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
                   <svg
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-16 h-16 absolute'
+                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -305,7 +305,7 @@ function AddsOn() {
                     />
                   </svg>
                   <svg
-                    className='lg:w-16 lg:h-16 w-12 h-12 absolute'
+                    className='lg:w-16 lg:h-16 w-8 h-8 absolute'
                     viewBox='0 0 34 34'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'

@@ -2,12 +2,12 @@ import React from 'react';
 
 function JourneyToBuy() {
   return (
-    <div className='mt-10 flex flex-col justify-center items-center xl-mx-auto mx-2'>
-      <div className='text-3xl font-bold text-[#033E4D] w-full xl:max-w-[1340px] lg:mt-10 mt-4 mb-10 2xl:max-w-[1470px] mx-auto'>
+    <div className='lg:mt-10 flex flex-col justify-center items-center xl:mx-auto mx-2'>
+      <div className='lg:text-3xl text-xl font-bold text-[#033E4D] w-full xl:max-w-[1340px] lg:mt-10 mt-4 mb-10 2xl:max-w-[1470px] mx-auto'>
         Installation process
       </div>
       <div className='grid md:grid-cols-3 grid-cols-2 lg:grid-cols-5 lg:gap-0 gap-4 w-full xl:max-w-[1340px] text-[#033E4D] 2xl:max-w-[14700px]'>
-        <div className='lg:text-2xl text-lg font-bold'>
+        <div className='lg:text-2xl text-sm font-bold'>
           <div className='flex justify-start items-center'>
             <svg
               className='lg:h-[83px] lg:w-[83px w-[60px] h-[60px]'
@@ -52,7 +52,7 @@ function JourneyToBuy() {
             </p>
           </div>
         </div>
-        <div className='lg:text-2xl text-lg font-bold'>
+        <div className='lg:text-2xl text-sm font-bold'>
           <div className='flex justify-start items-center'>
             <svg
               className='lg:h-[83px] lg:w-[83px] w-[60px] h-[60px]'
@@ -105,7 +105,7 @@ function JourneyToBuy() {
             </p>
           </div>
         </div>
-        <div className='lg:text-2xl text-lg font-bold'>
+        <div className='lg:text-2xl text-sm font-bold'>
           <div className='flex justify-start items-center'>
             <svg
               className='lg:h-[83px] lg:w-[83px] w-[60px] h-[60px]'
@@ -160,7 +160,7 @@ function JourneyToBuy() {
             </p>
           </div>
         </div>
-        <div className='lg:text-2xl text-lg font-bold'>
+        <div className='lg:text-2xl text-sm font-bold'>
           <div className='flex justify-start items-center'>
             <svg
               className='lg:h-[83px] lg:w-[83px] w-[60px] h-[60px]'
@@ -242,7 +242,7 @@ function JourneyToBuy() {
             </p>
           </div>
         </div>
-        <div className='lg:text-2xl text-lg font-bold'>
+        <div className='lg:text-2xl text-sm font-bold'>
           <div className='flex justify-start items-center'>
             <svg
               className='lg:h-[73px] lg:w-[73px] w-[60px] h-[60px]'

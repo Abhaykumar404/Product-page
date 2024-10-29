@@ -102,7 +102,7 @@ export default function Home() {
           <AddsOn />
         </div>
 
-        <div className='h-[4px] bg-[#D9D9D9] mb-10  mt-10'></div>
+        <div className='h-[4px] bg-[#D9D9D9] lg:mb-10 mb-4 mt-10'></div>
 
         <JourneyToBuy />
       </div>
