@@ -4,13 +4,13 @@ function Whybuy() {
   return (
     <div className='flex flex-col lg:gap-4 gap-2'>
       <div className='h-[1px] bg-[#033E4D] lg:block hidden'></div>
-      <div className='lg:text-3xl lg:mx-auto w-full mx-2 text-2xl font-bold text-[#033E4D]'>
+      <div className='lg:text-3xl lg:mx-auto mx-2 text-2xl font-bold text-[#033E4D]'>
         Who should buy this?
       </div>
-      <div className='md:text-lg lg:mx-auto mx-2 w-full text-base font-Medium text-[#033E4D]'>
+      <div className='md:text-lg lg:mx-auto mx-2 text-base font-Medium text-[#033E4D]'>
         Check if this solution meets your need
       </div>
-      <div className='flex gap-4 lg:mx-auto mx-2 justify-start items-center w-full'>
+      <div className='flex gap-4 lg:mx-auto px-2 justify-start items-center w-full'>
         <input
           placeholder='Enter monthly electricity bill amount'
           className='border outline-none px-4 placeholder-[#396571] border-[#033E4D] lg:h-16 h-10 flex justify-center items-center lg:text-lg md:text-base text-sm lg:w-3/5 w-4/5 lg:rounded-lg rounded-full bg-[#38B55733] font-normal text-[#033E4D]'
@@ -186,7 +186,7 @@ function Whybuy() {
         </div>
       </div>
       <div className='h-[1px] bg-[#D9D9D9] mt-8 mb-4 lg:hidden'></div>
-      <div className='flex lg:mx-auto mx-2 w-full'>
+      <div className='flex lg:mx-auto mx-2'>
         <div className='flex w-1/2 justify-start items-center gap-4'>
           <svg
             className='lg:w-[81px] lg:h-[81px] w-12 h-12'
@@ -254,7 +254,7 @@ function Whybuy() {
           </div>
         </div>
       </div>
-      <div className='h-[6px] bg-[#D9D9D9] mt-4 mb-4 lg:hidden'></div>
+      <div className='h-[6px] bg-[#D9D9D9] mt-8 mb-4 lg:hidden'></div>
 
       <div className='h-[1px] bg-[#033E4D] lg:block hidden'></div>
     </div>
