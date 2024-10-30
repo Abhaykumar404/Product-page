@@ -200,7 +200,7 @@ function AddsOn() {
               <div className='border border-[#033E4D] p-4 flex items-center lg:w-1/2 rounded-md justify-between w-full'>
                 <div className='w-3/5 lg:text-2xl text-lg'>
                   Zircle Quality Assurance
-                  <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-sm'>
+                  <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-xs'>
                     <p className='w-3/4 '>Our promise on quality</p>
                     <svg
                       className='lg:w-14 lg:h-14 h-6 w-6 cursor-pointer'
@@ -255,7 +255,7 @@ function AddsOn() {
                   </svg>
 
                   <img
-                    src='/circle.png'
+                    src='/zircle.png'
                     alt='xyz'
                     className='lg:w-32 absolute'
                   />
@@ -264,7 +264,7 @@ function AddsOn() {
               <div className='border border-[#033E4D] p-4 flex items-center lg:w-1/2 rounded-md justify-between w-full'>
                 <div className='w-3/5 lg:text-2xl text-lg'>
                 Zircle Service Assurance
-                  <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-sm'>
+                  <div className='flex items-center gap-4 w-full lg:text-lg font-medium text-xs'>
                   <p className='w-3/4'>How can you ensure long-term service with Zircle?</p>
                     <svg
                       className='lg:w-14 lg:h-14 h-6 w-6 cursor-pointer'
@@ -319,7 +319,7 @@ function AddsOn() {
                   </svg>
 
                   <img
-                    src='/circle.png'
+                    src='/zircle.png'
                     alt='xyz'
                     className='lg:w-32 absolute'
                   />
