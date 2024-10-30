@@ -125,7 +125,7 @@ function MobileProductCard() {
                     </svg>
 
                     <img
-                      src='/circle.png'
+                      src='/zircle.png'
                       alt='xyz'
                       className='lg:w-32 absolute'
                     />
