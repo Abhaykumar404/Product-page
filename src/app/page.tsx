@@ -13,7 +13,9 @@ export default function Home() {
       <div className='xl:max-w-[1340px] 2xl:max-w-[1470px] xl:mx-auto'>
         <div className='flex lg:flex-row flex-col justify-center xl:gap-0 gap-4 items-start bg-[#fafbf]'>
           <div className='lg:w-1/2 w-full flex flex-col lg:gap-8'>
-            <img src='/solar.webp' alt='solar' />
+            <img src='/solar.webp'  className='rounded-md shadow-md' alt='solar' />
+            <img src='/solar1.webp' className='rounded-md shadow-md' alt='solar' />
+            <img src='/solar2.webp' className='rounded-md shadow-md' alt='solar' />
 
             <div className='h-[6px] lg:hidden bg-[#D9D9D9]'></div>
             <div className='lg:hidden'>
@@ -25,7 +27,7 @@ export default function Home() {
             <Whybuy />
           </div>
 
-          <div className='lg:w-1/2 w-full lg:flex hidden justify-center items-center'>
+          <div className='lg:w-1/2 w-full z-10 sticky top-0 lg:flex hidden justify-center items-center'>
             <ProductDetailsCard />
           </div>
         </div>
