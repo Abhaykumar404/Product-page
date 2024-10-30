@@ -100,7 +100,7 @@ function MobileProductCard() {
                       viewBox='0 0 47 47'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
-                      className='w-10 h-10 absolute'
+                      className='w-11 h-11 absolute'
                     >
                       <circle
                         cx='23.3945'
