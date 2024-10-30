@@ -11,7 +11,7 @@ function AddsOn() {
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
+                    className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -54,7 +54,7 @@ function AddsOn() {
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
+                    className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -99,7 +99,7 @@ function AddsOn() {
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
+                    className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -148,7 +148,7 @@ function AddsOn() {
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
+                    className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -230,7 +230,7 @@ function AddsOn() {
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
+                    className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
@@ -294,7 +294,7 @@ function AddsOn() {
                     viewBox='0 0 47 47'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='lg:w-24 lg:h-24 w-12 h-12 absolute'
+                    className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
                   >
                     <circle
                       cx='23.3945'
