@@ -4,10 +4,10 @@ function Whybuy() {
   return (
     <div className='flex flex-col lg:gap-4 gap-2'>
       <div className='h-[1px] bg-[#033E4D] lg:block hidden'></div>
-      <div className='lg:text-3xl lg:mx-auto mx-2 text-2xl font-bold text-[#033E4D]'>
+      <div className='lg:text-3xl lg:mx-auto mx-2 text-2xl font-bold w-full text-[#033E4D]'>
         Who should buy this?
       </div>
-      <div className='md:text-lg lg:mx-auto mx-2 text-base font-Medium text-[#033E4D]'>
+      <div className='md:text-lg lg:mx-auto mx-2 text-base font-Medium w-full text-[#033E4D]'>
         Check if this solution meets your need
       </div>
       <div className='flex gap-4 lg:mx-auto px-2 justify-start items-center w-full'>
@@ -186,7 +186,7 @@ function Whybuy() {
         </div>
       </div>
       <div className='h-[1px] bg-[#D9D9D9] mt-8 mb-4 lg:hidden'></div>
-      <div className='flex lg:mx-auto mx-2'>
+      <div className='flex lg:mx-auto mx-2 w-full'>
         <div className='flex w-1/2 justify-start items-center gap-4'>
           <svg
             className='lg:w-[81px] lg:h-[81px] w-12 h-12'
