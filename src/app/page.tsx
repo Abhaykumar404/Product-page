@@ -124,7 +124,7 @@ export default function Home() {
         <div className='h-[4px] bg-[#D9D9D9] lg:mb-10 mb-4 mt-10'></div>
 
 
-        <div className='flex justify-center items-center'>
+        <div className=''>
           <SellerDetails />
         </div>
 
