@@ -1,10 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import AddsOn from './components/AddsOn';
+import CustomeReview from './components/CustomeReview';
 import JourneyToBuy from './components/JourneyToBuy';
 import MobileProductCard from './components/MobileProductCard';
 import ProductDetailsCard from './components/ProductDetailsCard';
 import ProductOverview from './components/ProductOverview';
 import SellerDetails from './components/SellerDetails';
+import SimilarProduct from './components/SimilarProduct';
 import Warranty from './components/Warranty';
 import Whybuy from './components/Whybuy';
 
@@ -118,18 +120,26 @@ export default function Home() {
         </div>
 
         <div className='h-[4px] bg-[#D9D9D9] lg:mb-10 mb-4 mt-10'></div>
+        <div>
+          <SimilarProduct />
+        </div>
+        <div className='h-[4px] bg-[#D9D9D9] lg:mb-10 mb-4 mt-10'></div>
+
+        <div>
+          <CustomeReview />
+        </div>
+
+        <div className='h-[4px] bg-[#D9D9D9] lg:mb-10 mb-4 mt-10'></div>
 
         <JourneyToBuy />
 
         <div className='h-[4px] bg-[#D9D9D9] lg:mb-10 mb-4 mt-10'></div>
-
 
         <div className=''>
           <SellerDetails />
         </div>
 
         <div className='h-[4px] mt-4'></div>
-
       </div>
     </div>
   );
