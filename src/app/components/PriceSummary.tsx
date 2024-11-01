@@ -19,7 +19,7 @@ function PriceSummary({ onClose }: ProductDetailsPopUpProps) {
           <div className='border text-[#396571] rounded-lg bg-white w-full md:max-w-lg mx-4'>
             <div className='lg:p-8 p-4 lg:text-xl text-lg flex justify-between font-bold bg-[#D7F0DD] rounded-t-lg'>
               Price Summary 
-              <div onClick={onClose} className='rounded-full w-7 h-7 cursor-pointer flex justify-center items-center text-xs bg-white text-white'>✖</div>
+              <div onClick={onClose} className='rounded-full w-7 h-7 cursor-pointer flex justify-center items-center text-xs bg-white text-[#396571] '>✖</div>
             </div>
             <div className='lg:p-8 p-4'>
               <div className='grid border rounded-lg border-[#396571] md:text-base text-sm'>

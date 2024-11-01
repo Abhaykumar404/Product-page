@@ -11,7 +11,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
 
   return (
     <div onClick={onClose} className='fixed inset-0 z-40 bg-black bg-opacity-60 flex justify-start transition-all transform ease-in-out duration-500'>
-    <div className='rounded-full lg:right-[25%] right-[10%] top-[10%] lg:top-10 border absolute w-7 h-7 lg:w-12 lg:h-12 cursor-pointer flex justify-center items-center text-xs bg-white text-white'>✖</div>
+    <div className='rounded-full lg:right-[25%] right-[6%] top-6 lg:top-10 border absolute w-7 h-7 lg:w-12 lg:h-12 cursor-pointer flex justify-center items-center text-xs bg-white text-white'>✖</div>
 
     <div className='flex justify-center items-center mx-auto'>
 
@@ -22,7 +22,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
           <div className='flex border-b relative border-gray-200 mb-4 overflow-hidden'>
             <button
               onClick={() => setActiveTab('specifications')}
-              className={`w-1/2 py-2 text-center md:text-base text-sm font-semibold ${
+              className={`w-1/2 py-2 text-center text-base font-semibold ${
                 activeTab === 'specifications'
                   ? 'text-[#38B557] border-b-2 border-[#38B557] transform transition-all ease-in-out duration-500'
                   : 'text-gray-500 border-b-2'
@@ -46,11 +46,11 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
             <div className='min-h-[300px] transition-all duration-500 ease-in-out'>
               {/* Specifications Section */}
               {activeTab === 'specifications' && (
-                <div className='w-full h-[500px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
-                  <h2 className='md:text-xl text-lg font-semibold text-[#38B557] mb-2'>
+                <div className='w-full md:h-[500px] h-[400px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
+                  <h2 className='md:text-xl text-base font-semibold text-[#38B557] mb-2'>
                     Product details
                   </h2>
-                  <div className='w-full mb-4 border md:text-base text-sm border-[#396571] rounded-lg'>
+                  <div className='w-full mb-4 border md:text-base text-xs border-[#396571] rounded-lg'>
                     {/* Specifications details */}
                     <div className='grid grid-cols-2 border-b border-[#396571]'>
                       <div className='font-semibold md:p-4 p-2 border-r border-[#396571]'>
@@ -173,17 +173,17 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
 
               {/* Warranties and Service Section */}
               {activeTab === 'warranty' && (
-                <div className='w-full h-[500px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
-                  <h2 className='md:text-xl text-lg font-semibold text-[#38B557] mb-2 w-full'>
+                <div className='w-full md:h-[500px] h-[400px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
+                  <h2 className='md:text-xl text-base font-semibold text-[#38B557] mb-2 w-full'>
                     Warranties and Service
                   </h2>
                   <div className='flex flex-col gap-8 w-full'>
                     {/* Service details */}
                     <div className='border border-[#396571] rounded-lg w-full'>
-                      <div className='border-b-[1px] border-[#396571] md:p-4 p-2 lg:text-xl text-lg font-bold bg-[#D7F0DD] rounded-t-lg'>
+                      <div className='border-b-[1px] border-[#396571] md:p-4 p-2 lg:text-xl text-base font-bold bg-[#D7F0DD] rounded-t-lg'>
                         Warranties
                       </div>
-                      <div className='grid md:text-base text-sm'>
+                      <div className='grid md:text-base text-xs'>
                         <div className='grid grid-cols-2 gap-4 border-b-[1px] border-[#396571]'>
                           <div className='font-semibold border-r-[1px] border-[#396571] md:p-4 p-2'>
                             Solar Panel
@@ -211,8 +211,8 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                       </div>
                     </div>
 
-                    <div className='border md:text-base text-sm border-[#396571] rounded-lg w-full'>
-                      <div className='border-b-[1px] border-[#396571] md:p-4 p-2 lg:text-xl font-bold bg-[#D7F0DD] rounded-t-lg'>
+                    <div className='border md:text-base text-xs border-[#396571] rounded-lg w-full'>
+                      <div className='border-b-[1px] border-[#396571] md:p-4 p-2 lg:text-xl text-base font-bold bg-[#D7F0DD] rounded-t-lg'>
                         Service
                       </div>
                       <div className='grid'>
