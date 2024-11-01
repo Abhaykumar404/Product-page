@@ -7,6 +7,7 @@ interface ProductDetailsPopUpProps {
 
 
 function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
+    
   const [activeTab, setActiveTab] = useState('specifications');
 
   return (
