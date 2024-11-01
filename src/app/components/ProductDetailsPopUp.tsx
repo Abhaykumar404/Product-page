@@ -230,6 +230,9 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                             <div className='pl-4'>Cleaning</div>
                           </div>
                           <div className='flex flex-col gap-2 md:p-4 p-2'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                             <span className='text-[#38B557]'>✅</span>
                             <span className='text-[#38B557]'>✅</span>
                             <span className='text-red-500'>❌</span>
@@ -249,6 +252,9 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                             <div className='pl-4'>Cleaning</div>
                           </div>
                           <div className='flex flex-col gap-2 md:p-4 p-2'>
+                          <span></span>
+                            <span></span>
+                            <span></span>
                             <span className='text-[#38B557]'>✅</span>
                             <span className='text-[#38B557]'>✅</span>
                             <span className='text-red-500'>❌</span>
