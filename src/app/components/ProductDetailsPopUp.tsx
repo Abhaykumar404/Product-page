@@ -11,7 +11,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
 
   return (
     <div onClick={onClose} className='fixed inset-0 z-40 bg-black bg-opacity-60 flex justify-start transition-all transform ease-in-out duration-500'>
-    <div className='rounded-full lg:right-[25%] right-[6%] top-6 lg:top-10 border absolute w-7 h-7 lg:w-12 lg:h-12 cursor-pointer flex justify-center items-center text-xs bg-white text-white'>✖</div>
+    <div className='rounded-full lg:right-[25%] right-[6%] top-6 lg:top-10 border absolute w-7 h-7 lg:w-12 lg:h-12 cursor-pointer flex justify-center items-center text-xs bg-white text-[#396571]'>✖</div>
 
     <div className='flex justify-center items-center mx-auto'>
 
@@ -46,7 +46,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
             <div className='min-h-[300px] transition-all duration-500 ease-in-out'>
               {/* Specifications Section */}
               {activeTab === 'specifications' && (
-                <div className='w-full md:h-[500px] h-[400px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
+                <div className='w-full md:h-[500px] h-[440px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
                   <h2 className='md:text-xl text-base font-semibold text-[#38B557] mb-2'>
                     Product details
                   </h2>
@@ -173,7 +173,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
 
               {/* Warranties and Service Section */}
               {activeTab === 'warranty' && (
-                <div className='w-full md:h-[500px] h-[400px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
+                <div className='w-full md:h-[500px] h-[440px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
                   <h2 className='md:text-xl text-base font-semibold text-[#38B557] mb-2 w-full'>
                     Warranties and Service
                   </h2>

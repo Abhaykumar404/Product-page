@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-"use client"
+'use client';
 import { useState } from 'react';
 import AddsOn from './components/AddsOn';
 import CustomeReview from './components/CustomeReview';
@@ -14,16 +14,15 @@ import Whybuy from './components/Whybuy';
 import ProductDetailsPopUp from './components/ProductDetailsPopUp';
 
 export default function Home() {
-
   const [isPopupVisible, setPopupVisible] = useState(false);
 
-    const showProductDetails = () => {
-        setPopupVisible(true);
-    };
+  const showProductDetails = () => {
+    setPopupVisible(true);
+  };
 
-    const hideProductDetails = () => {
-        setPopupVisible(false);
-    };
+  const hideProductDetails = () => {
+    setPopupVisible(false);
+  };
 
   return (
     <div className='flex flex-col justify-center items-center'>
@@ -99,7 +98,6 @@ export default function Home() {
         <div className='h-[4px] bg-[#D9D9D9] mb-10  mt-8 lg:mt-10'></div>
         {isPopupVisible && <ProductDetailsPopUp onClose={hideProductDetails} />}
 
-
         <div className='flex flex-col justify-center items-center lg:mx-auto mx-2'>
           <Warranty />
         </div>
@@ -158,9 +156,6 @@ export default function Home() {
         </div>
 
         <div className='h-[4px] mt-4'></div>
-        <div>
-            
-        </div>
       </div>
     </div>
   );

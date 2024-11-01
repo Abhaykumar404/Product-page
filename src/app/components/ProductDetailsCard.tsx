@@ -1,16 +1,24 @@
 "use client"
 import React, { useState } from 'react';
 import PriceSummary from './PriceSummary';
+import DiscountPopUp from './DiscountPopUp';
 
 function ProductDetailsCard() {
   const [isPopupVisible, setPopupVisible] = useState(false);
+  const [isPopupDiscount, setPopupDiscount] = useState(false);
 
     const showProductSummary = () => {
         setPopupVisible(true);
     };
+    const showProductDiscount = () => {
+        setPopupDiscount(true);
+    };
 
     const hideProductSummary = () => {
         setPopupVisible(false);
+    };
+    const hideProductDiscount = () => {
+        setPopupDiscount(false);
     };
   return (
     <>
@@ -230,7 +238,7 @@ function ProductDetailsCard() {
             </div>
           </div>
 
-          <div className='text-lg font-bold text-[#033E4D] flex gap-4'>
+          <div onClick={showProductDiscount} className='text-lg cursor-pointer font-bold text-[#033E4D] flex gap-4'>
             All Offers & Coupons
             <svg
               width='30'
@@ -335,6 +343,7 @@ function ProductDetailsCard() {
       </div>
 
     {isPopupVisible && <PriceSummary onClose={hideProductSummary} />}
+    {isPopupDiscount && <DiscountPopUp onClose={hideProductDiscount} />}
 
     </>
   );

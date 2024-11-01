@@ -53,12 +53,12 @@ function ProductOverview() {
               </svg>
 
               <div className='lg:text-xl font-bold text-sm text-[#033E4D]'>
-                <span className='text-[#6A8B94]'>Growwatt </span>
+                <span className='text-[#6A8B94]'>INVERTER</span>
                 <div className='text-lg font-normal'>
                 On-grid string inverter 5 kW 3-phase
                 </div>
                 <div className='lg:text-xl text-sm font-bold'>
-                INVERTER
+                Growwatt
                 </div>
               </div>
             </div>
