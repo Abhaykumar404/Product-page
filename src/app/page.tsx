@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
+import { useState } from 'react';
 import AddsOn from './components/AddsOn';
 import CustomeReview from './components/CustomeReview';
 import JourneyToBuy from './components/JourneyToBuy';
@@ -9,8 +11,20 @@ import SellerDetails from './components/SellerDetails';
 import SimilarProduct from './components/SimilarProduct';
 import Warranty from './components/Warranty';
 import Whybuy from './components/Whybuy';
+import ProductDetailsPopUp from './components/ProductDetailsPopUp';
 
 export default function Home() {
+
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+    const showProductDetails = () => {
+        setPopupVisible(true);
+    };
+
+    const hideProductDetails = () => {
+        setPopupVisible(false);
+    };
+
   return (
     <div className='flex flex-col justify-center items-center'>
       <div className='xl:max-w-[1340px] 2xl:max-w-[1470px] xl:mx-auto'>
@@ -60,6 +74,7 @@ export default function Home() {
             What’s included? See all product details
             <svg
               className='lg:w-[46px] lg:h-[46px] w-[30px] h-[30px] cursor-pointer'
+              onClick={showProductDetails}
               viewBox='0 0 20 20'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -82,6 +97,8 @@ export default function Home() {
           </div>
         </div>
         <div className='h-[4px] bg-[#D9D9D9] mb-10  mt-8 lg:mt-10'></div>
+        {isPopupVisible && <ProductDetailsPopUp onClose={hideProductDetails} />}
+
 
         <div className='flex flex-col justify-center items-center lg:mx-auto mx-2'>
           <Warranty />
@@ -93,6 +110,7 @@ export default function Home() {
             See warranty and service details
             <svg
               className='lg:w-[46px] lg:h-[46px] w-5 h-5 cursor-pointer'
+              onClick={showProductDetails}
               viewBox='0 0 20 20'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -140,6 +158,10 @@ export default function Home() {
         </div>
 
         <div className='h-[4px] mt-4'></div>
+        <div>
+        
+            
+        </div>
       </div>
     </div>
   );
