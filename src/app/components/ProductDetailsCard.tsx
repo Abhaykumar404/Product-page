@@ -1,6 +1,17 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
+import PriceSummary from './PriceSummary';
 
 function ProductDetailsCard() {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+    const showProductSummary = () => {
+        setPopupVisible(true);
+    };
+
+    const hideProductSummary = () => {
+        setPopupVisible(false);
+    };
   return (
     <>
       <div className='border xl:w-4/5 w-full h-screen relative border-[#396571] rounded-md p-4'>
@@ -95,7 +106,7 @@ function ProductDetailsCard() {
           <div className='flex shadow-lg bg-[#38B55733] py-4 px-4 justify-between rounded-md'>
             <div className='solar-name w-1/2 text-xl font-bold text-[#033E4D]'>
               ₹ 3,20,000
-              <div className='flex justify-start items-center gap-2'>
+              <div onClick={showProductSummary} className='flex justify-start items-center gap-2 cursor-pointer'>
                 <span className='text-base font-normal underline'>
                   see more
                 </span>
@@ -322,6 +333,9 @@ function ProductDetailsCard() {
           </div>
         </div>
       </div>
+
+    {isPopupVisible && <PriceSummary onClose={hideProductSummary} />}
+
     </>
   );
 }

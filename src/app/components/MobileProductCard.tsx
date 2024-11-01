@@ -1,6 +1,17 @@
-import React from 'react'
+"ues client"
+import React, { useState } from 'react'
+import PriceSummary from './PriceSummary'
 
 function MobileProductCard() {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+    const showProductSummary = () => {
+        setPopupVisible(true);
+    };
+
+    const hideProductSummary = () => {
+        setPopupVisible(false);
+    };
   return (
     <>
          <div className='w-full relative p-2'>
@@ -134,7 +145,7 @@ function MobileProductCard() {
                 <div className='flex shadow-lg bg-[#38B55733] mt-2 py-4 px-4 justify-between rounded-md'>
                   <div className='solar-name w-1/2 text-lg font-bold text-[#033E4D]'>
                     ₹ 3,20,000
-                    <div className='flex justify-start items-center gap-2'>
+                    <div onClick={showProductSummary} className='flex cursor-pointer justify-start items-center gap-2'>
                       <span className='text-sm font-normal underline'>
                         see more
                       </span>
@@ -365,6 +376,9 @@ function MobileProductCard() {
               </svg>
             </div>
           </div>
+
+    {isPopupVisible && <PriceSummary onClose={hideProductSummary} />}
+
     </>
   )
 }

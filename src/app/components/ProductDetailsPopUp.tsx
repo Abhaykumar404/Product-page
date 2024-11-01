@@ -11,17 +11,20 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
 
   return (
     <div onClick={onClose} className='fixed inset-0 z-40 bg-black bg-opacity-60 flex justify-start transition-all transform ease-in-out duration-500'>
+    <div className='rounded-full lg:right-[25%] right-[10%] top-[10%] lg:top-10 border absolute w-7 h-7 lg:w-12 lg:h-12 cursor-pointer flex justify-center items-center text-xs bg-white text-white'>✖</div>
+
     <div className='flex justify-center items-center mx-auto'>
+
       <div onClick={(event) => {
         event.stopPropagation();
       }} className='md:max-w-lg px-4 w-full mx-4 bg-white border overflow-hidden text-[#396571] border-[#396571] rounded-lg shadow-lg md:p-6 p-4'>
           {/* Tab Navigation */}
-          <div className='flex border-b border-gray-200 mb-4 overflow-hidden'>
+          <div className='flex border-b relative border-gray-200 mb-4 overflow-hidden'>
             <button
               onClick={() => setActiveTab('specifications')}
               className={`w-1/2 py-2 text-center md:text-base text-sm font-semibold ${
                 activeTab === 'specifications'
-                  ? 'text-green-700 border-b-2 border-green-500 transform transition-all ease-in-out duration-500'
+                  ? 'text-[#38B557] border-b-2 border-[#38B557] transform transition-all ease-in-out duration-500'
                   : 'text-gray-500 border-b-2'
               }`}
             >
@@ -31,7 +34,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
               onClick={() => setActiveTab('warranty')}
               className={`w-1/2 py-2 text-center md:text-base text-sm font-semibold ${
                 activeTab === 'warranty'
-                  ? 'text-green-700 border-b-2 border-green-500 transform transition-all ease-in-out duration-500'
+                  ? 'text-[#38B557] border-b-2 border-[#38B557] transform transition-all ease-in-out duration-500'
                   : 'text-gray-500 border-b-2'
               }`}
             >
@@ -44,7 +47,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
               {/* Specifications Section */}
               {activeTab === 'specifications' && (
                 <div className='w-full h-[500px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
-                  <h2 className='md:text-xl text-lg font-semibold text-green-700 mb-2'>
+                  <h2 className='md:text-xl text-lg font-semibold text-[#38B557] mb-2'>
                     Product details
                   </h2>
                   <div className='w-full mb-4 border md:text-base text-sm border-[#396571] rounded-lg'>
@@ -144,7 +147,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                       <div className='font-semibold md:p-4 p-2 border-r border-[#396571]'>
                         Solar Meter
                       </div>
-                      <div className='md:p-4 p-2 text-green-500'>✅</div>
+                      <div className='md:p-4 p-2 text-[#38B557]'>✅</div>
                     </div>
                     <div className='grid grid-cols-2 border-b border-[#396571]'>
                       <div className='font-semibold md:p-4 p-2 border-r border-[#396571]'>
@@ -156,13 +159,13 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                       <div className='font-semibold md:p-4 p-2 border-r border-[#396571]'>
                         Installation
                       </div>
-                      <div className='md:p-4 p-2 text-green-500'>✅</div>
+                      <div className='md:p-4 p-2 text-[#38B557]'>✅</div>
                     </div>
                     <div className='grid grid-cols-2'>
                       <div className='font-semibold md:p-4 p-2 border-r border-[#396571]'>
                         Maintenance
                       </div>
-                      <div className='md:p-4 p-2 text-green-500'>✅</div>
+                      <div className='md:p-4 p-2 text-[#38B557]'>✅</div>
                     </div>
                   </div>
                 </div>
@@ -171,7 +174,7 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
               {/* Warranties and Service Section */}
               {activeTab === 'warranty' && (
                 <div className='w-full h-[500px] overflow-hidden hover:overflow-y-scroll scrollbar-thin'>
-                  <h2 className='md:text-xl text-lg font-semibold text-green-700 mb-2 w-full'>
+                  <h2 className='md:text-xl text-lg font-semibold text-[#38B557] mb-2 w-full'>
                     Warranties and Service
                   </h2>
                   <div className='flex flex-col gap-8 w-full'>
@@ -227,8 +230,8 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                             <div className='pl-4'>Cleaning</div>
                           </div>
                           <div className='flex flex-col gap-2 md:p-4 p-2'>
-                            <span className='text-green-500'>✅</span>
-                            <span className='text-green-500'>✅</span>
+                            <span className='text-[#38B557]'>✅</span>
+                            <span className='text-[#38B557]'>✅</span>
                             <span className='text-red-500'>❌</span>
                           </div>
                         </div>
@@ -246,8 +249,8 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                             <div className='pl-4'>Cleaning</div>
                           </div>
                           <div className='flex flex-col gap-2 md:p-4 p-2'>
-                            <span className='text-green-500'>✅</span>
-                            <span className='text-green-500'>✅</span>
+                            <span className='text-[#38B557]'>✅</span>
+                            <span className='text-[#38B557]'>✅</span>
                             <span className='text-red-500'>❌</span>
                           </div>
                         </div>
