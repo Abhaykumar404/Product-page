@@ -109,7 +109,7 @@ export default function Home() {
           <div className='text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl-mx-auto mx-2 lg:text-2xl mt-10 text-lg font-bold items-center justify-start flex gap-4'>
             See warranty and service details
             <svg
-              className='lg:w-[46px] lg:h-[46px] w-5 h-5 cursor-pointer'
+              className='lg:w-[46px] lg:h-[46px] w-[30px] h-[30px] cursor-pointer'
               onClick={showProductDetails}
               viewBox='0 0 20 20'
               fill='none'

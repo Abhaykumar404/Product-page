@@ -177,10 +177,10 @@ function ProductDetailsPopUp({ onClose }: ProductDetailsPopUpProps) {
                   <div className='flex flex-col gap-8 w-full'>
                     {/* Service details */}
                     <div className='border border-[#396571] rounded-lg w-full'>
-                      <div className='border-b-[1px] border-[#396571] md:p-4 p-2 lg:text-xl font-bold bg-[#D7F0DD] rounded-t-lg'>
+                      <div className='border-b-[1px] border-[#396571] md:p-4 p-2 lg:text-xl text-lg font-bold bg-[#D7F0DD] rounded-t-lg'>
                         Warranties
                       </div>
-                      <div className='grid'>
+                      <div className='grid md:text-base text-sm'>
                         <div className='grid grid-cols-2 gap-4 border-b-[1px] border-[#396571]'>
                           <div className='font-semibold border-r-[1px] border-[#396571] md:p-4 p-2'>
                             Solar Panel
