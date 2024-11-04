@@ -2885,7 +2885,7 @@ export default function Home() {
       {/* mobile sticky bar */}
 
       <div className=' relative w-full mt-20'>
-        <div className='flex justify-center items-center sm:gap-4 gap-2 sm:px-0 px-2 fixed bottom-0 z-40 bg-white lg:hidden text-white sm:text-sm text-xs font-medium h-[84px] w-full'>
+        <div className='flex justify-center items-center sm:gap-4 gap-2 sm:px-0 px-2 fixed bottom-0 z-20 bg-white lg:hidden text-white sm:text-sm text-xs font-medium h-[84px] w-full'>
           <div className='w-1/2 sm:w-2/5 bg-[#033E4D] rounded-lg shadow-lg h-11 flex justify-center items-center'>
           BOOK NOW AT RS 299 
           </div>
@@ -2897,3 +2897,4 @@ export default function Home() {
     </>
   );
 }
+ 
