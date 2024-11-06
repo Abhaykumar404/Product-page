@@ -1285,9 +1285,9 @@ export default function Home() {
 
           {/* AddsOn */}
           <div className='flex justify-center items-center'>
-            <div className='lg:text-3xl text-xl flex flex-col gap-8 font-bold text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl:mx-auto mx-2 '>
+            <div className='lg:text-3xl text-xl flex flex-col gap-4 font-bold text-[#033E4D] xl:max-w-[1340px] 2xl:max-w-[1470px] w-full xl:mx-auto mx-2 '>
               Benefits and add-ons
-              <div className='lg:w-3/4 w-full flex gap-4'>
+              <div className='lg:w-3/4 w-full flex gap-4 mb-4'>
                 <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
                   <div className='relative lg:w-40 lg:h-40 w-[70px] h-16 flex justify-center items-center'>
                     <svg
