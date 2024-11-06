@@ -1289,12 +1289,12 @@ export default function Home() {
               Benefits and add-ons
               <div className='lg:w-3/4 w-full flex gap-4'>
                 <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                  <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
+                  <div className='relative lg:w-40 lg:h-40 w-[70px] h-16 flex justify-center items-center'>
                     <svg
                       viewBox='0 0 47 47'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
-                      className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
+                      className='lg:w-[90px] lg:h-[90px] w-10 h-10 absolute'
                     >
                       <circle
                         cx='23.3945'
@@ -1306,7 +1306,7 @@ export default function Home() {
                     </svg>
                     <svg
                       viewBox='0 0 33 32'
-                      className='lg:w-16 lg:h-16 w-10 h-10 absolute'
+                      className='lg:w-16 lg:h-16 w-8 h-8 absolute'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
                     >
@@ -1326,18 +1326,18 @@ export default function Home() {
                     <img
                       src='/circle.png'
                       alt='xyz'
-                      className='lg:w-32 absolute'
+                      className='lg:w-56 absolute'
                     />
                   </div>
                   80-point check quality inspection
                 </div>
                 <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                  <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
+                  <div className='relative lg:w-40 lg:h-40 w-[70px] h-16 flex justify-center items-center'>
                     <svg
                       viewBox='0 0 47 47'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
-                      className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
+                      className='lg:w-[90px] lg:h-[90px] w-10 h-10 absolute'
                     >
                       <circle
                         cx='23.3945'
@@ -1348,7 +1348,7 @@ export default function Home() {
                       />
                     </svg>
                     <svg
-                      className='lg:w-16 lg:h-16 w-10 h-10 absolute'
+                      className='lg:w-16 lg:h-16 w-8 h-8 absolute'
                       viewBox='0 0 33 32'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
@@ -1369,20 +1369,20 @@ export default function Home() {
                       />
                     </svg>
                     <img
-                      src='/circle.png'
+                      src='/circle1.png'
                       alt='xyz'
-                      className='lg:w-32 absolute'
+                      className='lg:w-56 absolute'
                     />
                   </div>
                   Up to 5 years of Zircle maintenance
                 </div>
                 <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                  <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
+                  <div className='relative lg:w-40 lg:h-40 w-[70px] h-16 flex justify-center items-center'>
                     <svg
                       viewBox='0 0 47 47'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
-                      className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
+                      className='lg:w-[90px] lg:h-[90px] w-10 h-10 absolute'
                     >
                       <circle
                         cx='23.3945'
@@ -1393,7 +1393,7 @@ export default function Home() {
                       />
                     </svg>
                     <svg
-                      className='lg:w-16 lg:h-16 w-10 h-10 absolute'
+                      className='lg:w-16 lg:h-16 w-8 h-8 absolute'
                       viewBox='0 0 33 32'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
@@ -1418,20 +1418,20 @@ export default function Home() {
                     </svg>
 
                     <img
-                      src='/circle.png'
+                      src='/circle2.png'
                       alt='xyz'
-                      className='lg:w-32 absolute'
+                      className='lg:w-56 absolute'
                     />
                   </div>
                   Life long service support
                 </div>
                 <div className='lg:text-base text-xs lg:w-1/6 w-1/4 flex-col flex justify-start items-center text-center gap-2 font-medium'>
-                  <div className='relative lg:w-28 lg:h-28 w-16 h-16 flex justify-center items-center'>
+                  <div className='relative lg:w-40 lg:h-40 w-[70px] h-16 flex justify-center items-center'>
                     <svg
                       viewBox='0 0 47 47'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
-                      className='lg:w-[90px] lg:h-[90px] w-12 h-12 absolute'
+                      className='lg:w-[90px] lg:h-[90px] w-10 h-10 absolute'
                     >
                       <circle
                         cx='23.3945'
@@ -1442,7 +1442,7 @@ export default function Home() {
                       />
                     </svg>
                     <svg
-                      className='lg:w-16 lg:h-16 w-10 h-10 absolute'
+                      className='lg:w-16 lg:h-16 w-8 h-8 absolute'
                       viewBox='0 0 45 45'
                       fill='none'
                       xmlns='http://www.w3.org/2000/svg'
@@ -1471,9 +1471,9 @@ export default function Home() {
                     </svg>
 
                     <img
-                      src='/circle.png'
+                      src='/circle3.png'
                       alt='xyz'
-                      className='lg:w-32 absolute'
+                      className='lg:w-56 absolute'
                     />
                   </div>
                   Plant performance monitoring
